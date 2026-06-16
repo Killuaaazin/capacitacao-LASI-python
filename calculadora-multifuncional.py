@@ -20,7 +20,7 @@ def calculo_da_posição_da_queda_projetil(velocidade_inicial, angulo, tempo):
     import math
     angulo_rad = math.radians(angulo)
     posicao_x = velocidade_inicial * math.cos(angulo_rad) * tempo
-    posicao_y = velocidade_inicial * math.sin(angulo_rad) * tempo - (0.5 * 9.81 * tempo ** 2)
+    posicao_y = velocidade_inicial * math.sin(angulo_rad) * tempo - (0.5 * 9.80 * tempo ** 2)
     return posicao_x, posicao_y
 
 def confirmar():
