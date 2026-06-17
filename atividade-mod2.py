@@ -1,3 +1,4 @@
+
 def isPalindrome(str):
     if str == str[::-1]:
       return True
@@ -5,12 +6,12 @@ def isPalindrome(str):
       return False
 
 def main():
-  str = input("Enter a WORD to be tested as a palindrome:")
+  str = input("Entre uma PALAVRA para testar se é um palindromo:")
 
   if (isPalindrome(str)) == True:
-    print(str + " is a palindrome!")
+    print(str + " é um palindromo!")
   else:
-    print(str + " is NOT a palindrome!")
+    print(str + " não é um palindromo!")
 
 if __name__ == "__main__":
     main()
